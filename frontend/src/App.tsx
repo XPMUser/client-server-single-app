@@ -4,8 +4,8 @@ import "./App.css";
 import axios from "axios";
 
 function App() {
-	const url = "http://localhost:5000"; // dev
-	// const url = ''; // prod
+	// const url = "http://localhost:5000"; // dev
+	const url = "https://client-server-single-app-backend.onrender.com"; // prod
 
 	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
